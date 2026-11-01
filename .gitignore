@@ -1,0 +1,16 @@
+# Windows metadata
+*:Zone.Identifier
+
+# Simulation outputs
+*.vcd
+*.vvp
+sim/core_test
+sim/frontend_test
+sim/position_test
+sim/quad_test
+sim/speed_test
+sim/sync_test
+
+# Editor and OS files
+.DS_Store
+*~

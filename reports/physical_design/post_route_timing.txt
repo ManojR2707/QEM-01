@@ -1,0 +1,323 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+
+========== SETUP TIMING ==========
+Startpoint: uio_in[4] (input port clocked by core_clock)
+Endpoint: uo_out[0] (output port clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   2.00    2.00 ^ input external delay
+   0.00    2.00 ^ uio_in[4] (in)
+   0.82    2.82 ^ input26/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.26    3.09 v _0716_/Y (sky130_fd_sc_hd__inv_1)
+   0.29    3.38 ^ _0927_/Y (sky130_fd_sc_hd__a22oi_1)
+   0.07    3.45 v _0949_/Y (sky130_fd_sc_hd__nor2_1)
+   0.14    3.59 ^ _0982_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.17    3.77 v _0993_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.44    4.21 v output28/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.00    4.21 v uo_out[0] (out)
+           4.21   data arrival time
+
+  20.00   20.00   clock core_clock (rise edge)
+   0.00   20.00   clock network delay (propagated)
+   0.00   20.00   clock reconvergence pessimism
+  -2.00   18.00   output external delay
+          18.00   data required time
+---------------------------------------------------------
+          18.00   data required time
+          -4.21   data arrival time
+---------------------------------------------------------
+          13.79   slack (MET)
+
+
+Startpoint: uio_in[4] (input port clocked by core_clock)
+Endpoint: uo_out[1] (output port clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   2.00    2.00 ^ input external delay
+   0.00    2.00 ^ uio_in[4] (in)
+   0.82    2.82 ^ input26/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.26    3.09 v _0716_/Y (sky130_fd_sc_hd__inv_1)
+   0.21    3.30 ^ _0816_/Y (sky130_fd_sc_hd__nor2_1)
+   0.10    3.40 v _0849_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.27    3.67 ^ _0882_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.52    4.19 ^ output29/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.00    4.19 ^ uo_out[1] (out)
+           4.19   data arrival time
+
+  20.00   20.00   clock core_clock (rise edge)
+   0.00   20.00   clock network delay (propagated)
+   0.00   20.00   clock reconvergence pessimism
+  -2.00   18.00   output external delay
+          18.00   data required time
+---------------------------------------------------------
+          18.00   data required time
+          -4.19   data arrival time
+---------------------------------------------------------
+          13.81   slack (MET)
+
+
+Startpoint: uio_in[4] (input port clocked by core_clock)
+Endpoint: uo_out[2] (output port clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   2.00    2.00 v input external delay
+   0.00    2.00 v uio_in[4] (in)
+   0.69    2.69 v input26/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.33    3.03 ^ _0716_/Y (sky130_fd_sc_hd__inv_1)
+   0.12    3.14 v _0727_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.13    3.27 v _0738_/Y (sky130_fd_sc_hd__a21boi_0)
+   0.14    3.42 ^ _0782_/Y (sky130_fd_sc_hd__o21ai_0)
+   0.06    3.48 v _0793_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.20    3.68 ^ _0805_/Y (sky130_fd_sc_hd__a21oi_1)
+   0.49    4.17 ^ output30/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.00    4.17 ^ uo_out[2] (out)
+           4.17   data arrival time
+
+  20.00   20.00   clock core_clock (rise edge)
+   0.00   20.00   clock network delay (propagated)
+   0.00   20.00   clock reconvergence pessimism
+  -2.00   18.00   output external delay
+          18.00   data required time
+---------------------------------------------------------
+          18.00   data required time
+          -4.17   data arrival time
+---------------------------------------------------------
+          13.83   slack (MET)
+
+
+Startpoint: uio_in[4] (input port clocked by core_clock)
+Endpoint: uo_out[3] (output port clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   2.00    2.00 ^ input external delay
+   0.00    2.00 ^ uio_in[4] (in)
+   0.82    2.82 ^ input26/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.26    3.09 v _0716_/Y (sky130_fd_sc_hd__inv_1)
+   0.17    3.25 ^ _1202_/Y (sky130_fd_sc_hd__nor2_1)
+   0.08    3.33 v _1203_/Y (sky130_fd_sc_hd__a31oi_1)
+   0.19    3.52 ^ _1208_/Y (sky130_fd_sc_hd__o22ai_1)
+   0.51    4.03 ^ output31/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.00    4.03 ^ uo_out[3] (out)
+           4.03   data arrival time
+
+  20.00   20.00   clock core_clock (rise edge)
+   0.00   20.00   clock network delay (propagated)
+   0.00   20.00   clock reconvergence pessimism
+  -2.00   18.00   output external delay
+          18.00   data required time
+---------------------------------------------------------
+          18.00   data required time
+          -4.03   data arrival time
+---------------------------------------------------------
+          13.97   slack (MET)
+
+
+Startpoint: uio_in[2] (input port clocked by core_clock)
+Endpoint: uo_out[4] (output port clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock network delay (propagated)
+   2.00    2.00 ^ input external delay
+   0.00    2.00 ^ uio_in[2] (in)
+   0.45    2.45 ^ input24/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.26    2.71 ^ place56/X (sky130_fd_sc_hd__buf_4)
+   0.57    3.28 v _1209_/X (sky130_fd_sc_hd__mux4_2)
+   0.16    3.44 v _1211_/Y (sky130_fd_sc_hd__o2bb2ai_1)
+   0.42    3.86 v output32/X (sky130_fd_sc_hd__clkdlybuf4s50_1)
+   0.00    3.86 v uo_out[4] (out)
+           3.86   data arrival time
+
+  20.00   20.00   clock core_clock (rise edge)
+   0.00   20.00   clock network delay (propagated)
+   0.00   20.00   clock reconvergence pessimism
+  -2.00   18.00   output external delay
+          18.00   data required time
+---------------------------------------------------------
+          18.00   data required time
+          -3.86   data arrival time
+---------------------------------------------------------
+          14.14   slack (MET)
+
+
+
+========== HOLD TIMING ==========
+Startpoint: qem.core.frontend.u_sync.a_meta$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: qem.core.frontend.u_sync.enc_a_sync$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ qem.core.frontend.u_sync.a_meta$_DFF_PN0_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.31    0.72 ^ qem.core.frontend.u_sync.a_meta$_DFF_PN0_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.00    0.72 ^ qem.core.frontend.u_sync.enc_a_sync$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)
+           0.72   data arrival time
+
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41   clock reconvergence pessimism
+           0.41 ^ qem.core.frontend.u_sync.enc_a_sync$_DFF_PN0_/CLK (sky130_fd_sc_hd__dfrtp_1)
+  -0.03    0.37   library hold time
+           0.37   data required time
+---------------------------------------------------------
+           0.37   data required time
+          -0.72   data arrival time
+---------------------------------------------------------
+           0.35   slack (MET)
+
+
+Startpoint: qem.core.frontend.u_sync.b_meta$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: qem.core.frontend.u_sync.enc_b_sync$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ qem.core.frontend.u_sync.b_meta$_DFF_PN0_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.32    0.72 ^ qem.core.frontend.u_sync.b_meta$_DFF_PN0_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.00    0.72 ^ qem.core.frontend.u_sync.enc_b_sync$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)
+           0.72   data arrival time
+
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41   clock reconvergence pessimism
+           0.41 ^ qem.core.frontend.u_sync.enc_b_sync$_DFF_PN0_/CLK (sky130_fd_sc_hd__dfrtp_1)
+  -0.03    0.37   library hold time
+           0.37   data required time
+---------------------------------------------------------
+           0.37   data required time
+          -0.72   data arrival time
+---------------------------------------------------------
+           0.35   slack (MET)
+
+
+Startpoint: qem.core.frontend.u_sync.enc_b_sync$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: qem.core.frontend.u_decoder.previous_state[0]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ qem.core.frontend.u_sync.enc_b_sync$_DFF_PN0_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.38    0.79 ^ qem.core.frontend.u_sync.enc_b_sync$_DFF_PN0_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.00    0.79 ^ qem.core.frontend.u_decoder.previous_state[0]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)
+           0.79   data arrival time
+
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41   clock reconvergence pessimism
+           0.41 ^ qem.core.frontend.u_decoder.previous_state[0]$_DFFE_PN0P_/CLK (sky130_fd_sc_hd__dfrtp_1)
+  -0.05    0.36   library hold time
+           0.36   data required time
+---------------------------------------------------------
+           0.36   data required time
+          -0.79   data arrival time
+---------------------------------------------------------
+           0.43   slack (MET)
+
+
+Startpoint: qem.core.frontend.u_sync.enc_a_sync$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: qem.core.frontend.u_decoder.previous_state[1]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ qem.core.frontend.u_sync.enc_a_sync$_DFF_PN0_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.39    0.79 ^ qem.core.frontend.u_sync.enc_a_sync$_DFF_PN0_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.00    0.79 ^ qem.core.frontend.u_decoder.previous_state[1]$_DFFE_PN0P_/D (sky130_fd_sc_hd__dfrtp_1)
+           0.79   data arrival time
+
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41   clock reconvergence pessimism
+           0.41 ^ qem.core.frontend.u_decoder.previous_state[1]$_DFFE_PN0P_/CLK (sky130_fd_sc_hd__dfrtp_1)
+  -0.05    0.36   library hold time
+           0.36   data required time
+---------------------------------------------------------
+           0.36   data required time
+          -0.79   data arrival time
+---------------------------------------------------------
+           0.44   slack (MET)
+
+
+Startpoint: qem.core.speed_unit.window_timer[11]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: qem.core.speed_unit.window_timer[11]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41 ^ qem.core.speed_unit.window_timer[11]$_DFF_PN0_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.37    0.78 ^ qem.core.speed_unit.window_timer[11]$_DFF_PN0_/Q (sky130_fd_sc_hd__dfrtp_1)
+   0.08    0.86 v _1257_/Y (sky130_fd_sc_hd__xnor2_1)
+   0.00    0.86 v qem.core.speed_unit.window_timer[11]$_DFF_PN0_/D (sky130_fd_sc_hd__dfrtp_1)
+           0.86   data arrival time
+
+   0.00    0.00   clock core_clock (rise edge)
+   0.41    0.41   clock network delay (propagated)
+   0.00    0.41   clock reconvergence pessimism
+           0.41 ^ qem.core.speed_unit.window_timer[11]$_DFF_PN0_/CLK (sky130_fd_sc_hd__dfrtp_1)
+  -0.04    0.37   library hold time
+           0.37   data required time
+---------------------------------------------------------
+           0.37   data required time
+          -0.86   data arrival time
+---------------------------------------------------------
+           0.49   slack (MET)
+
+
+
+========== WORST SLACK ==========
+worst slack max 13.79
+worst slack min 0.35
+
+========== SETUP TNS ==========
+tns max 0.00
