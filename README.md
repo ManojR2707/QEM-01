@@ -196,4 +196,4 @@ QEM-01/
 - Speed is reported as transitions per 10 ms, not directly as RPM.
 - The register interface assumes a synchronous external controller.
 
-This project demonstrates an RTL-to-GDS implementation workflow for a digital encoder-monitoring design. It is a portfolio implementation, not a foundry signoff or fabrication-ready claim.
+
